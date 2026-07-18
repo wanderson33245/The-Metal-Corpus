@@ -1,6 +1,6 @@
 # Heavy Metal Lyrics Analysis
 
-A data pipeline that collects, cleans, stores, and analyzes lyrics from hundreds of heavy metal bands across multiple subgenres — built as a portfolio project to demonstrate end-to-end data engineering and NLP skills.
+A data pipeline that collects, cleans, stores, and analyzes lyrics from hundreds of heavy metal bands across multiple subgenres. Built as a portfolio project to demonstrate end-to-end data engineering and NLP skills.
 
 ---
 
