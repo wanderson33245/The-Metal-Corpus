@@ -128,4 +128,4 @@ API keys required:
 
 Built by William Anderson as part of a data science portfolio. This project demonstrates skills in data collection, API integration, text processing, database design, and pipeline architecture.
 
-[LinkedIn](#) · [Portfolio](#)
+[LinkedIn](https://www.linkedin.com/in/wanderson33245/) · [Portfolio](https://wandersondata.com/)
