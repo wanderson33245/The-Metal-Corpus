@@ -15,6 +15,16 @@ What does heavy metal actually talk about? This project answers that question by
 
 ---
 
+## The Story Behind This Project
+
+I've been a metalhead ever since I first heard the album The Stage by Avenged Sevenfold. Sometime back then, I read a post where someone had analyzed a few thousand metal songs and concluded that the most common words were along the lines of "death" and "fire" and the least common was something like "senators". I remember my immediate reaction was that it just sounded like something someone who doesn't listen to metal would make up.
+
+So, I wrote a rudimentary program in JavaScript, copy/pasted 2,625 songs' lyrics into it, and it returned two arrays: a list of words and a count of their occurrence. That revealed that the most common word in heavy metal is "the" and the least common word is a ten thousand-way tie between however many words only appeared once in all 2600 lyrics. It was a good start, but I lacked the expertise to analyze it any further at that time.
+
+Years later, looking for a portfolio project that wasn't another sales data analysis, I remembered the core question of that project: What **does** metal music talk about? How do the subgenres differ? This time, I had the skills to do it properly and get answers to questions that counting alone can't provide.
+
+---
+
 ## Pipeline Architecture
 
 The project is structured as four independent scripts that form a sequential pipeline:
@@ -32,7 +42,7 @@ analyze_lyrics.py
 ```
 
 ### 1. `preview_discography.py`
-Queries **Discogs** and **MusicBrainz** APIs to build a structured Excel preview of a band's full discography — albums, EPs, singles, tracklists, subgenres, release years, and vocalist gender. Includes filtering to exclude live albums, compilations, and samplers automatically.
+Queries **Discogs** and **MusicBrainz** APIs to build a structured Excel preview of a band's full discography — albums, EPs, singles, tracklists, subgenres, release years, and vocalist gender. Filters to exclude live albums, compilations, and samplers automatically.
 
 ### 2. Manual Review
 The Excel preview is reviewed before any lyrics are fetched. Tracks can be included or excluded, subgenres corrected, and release types verified. This human checkpoint is a deliberate design choice to ensure data quality before committing API calls.
