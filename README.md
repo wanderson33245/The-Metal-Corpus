@@ -148,7 +148,7 @@ Word frequency can only go so far. A logical next step is to analyze whole phras
 
 ### Sentiment analysis
 
-Beyond the words or phrases themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre would be a challenging addition. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? 
+Beyond the words or phrases themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre would be a challenging addition. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? For example, a box-and-whisker plot showing the sentiment distribution of adjectives paired with common religious or political nouns by subgenres, and eventually by broader genres like Country vs. Rap, would reveal *how* the genres feel about those topics, not just how often they talk about it.
 
 ### Non-English lyric translation
 
