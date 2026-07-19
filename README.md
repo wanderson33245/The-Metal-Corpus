@@ -6,7 +6,7 @@ A data pipeline that collects, cleans, stores, and analyzes lyrics from hundreds
 
 ## Project Overview
 
-What does heavy metal actually talk about? This project answers that question by building a word frequency database from thousands of songs across subgenres like thrash, death, black, doom, power, and progressive metal. The goal is to identify linguistic patterns, compare vocabulary across subgenres and eras, and ultimately find what makes metal lyrics distinct from everyday English.
+What does heavy metal actually talk about? This project answers that question by building a word frequency database from thousands of songs across subgenres like thrash, death, black, doom, power, and progressive metal. The goal is to find what makes metal lyrics distinct from everyday English, and how it varies by subgenre.
 
 **Dataset scale:**
 - 374 bands across 10 defined subgenres (UPDATE NUMBER)
@@ -82,7 +82,7 @@ words         (id, word, traditional, thrash, death, black, groove, progressive,
 
 ## Key Technical Features
 
-- **Multi-API orchestration** — Discogs, MusicBrainz, and Genius APIs chained together, each used for what it does best
+- **Multi-API orchestration** — Discogs, MusicBrainz, and Genius APIs chained together. Discogs for band discography information, MusicBrainz for release type information, Genius for lyrics
 - **Fuzzy string matching** — `difflib` used to match album titles across APIs with different naming conventions, and to verify that Genius returned the correct artist
 - **Rate limit handling** — automatic retry logic and adaptive delays for all three APIs
 - **Human-in-the-loop design** — Excel review step between discovery and fetching prevents wasted API calls on bad data
@@ -116,8 +116,7 @@ To reproduce the dataset:
 1. Clone this repo
 2. Create a `.env` file with your API keys (see `.env.example`)
 3. Install dependencies: `pip install -r requirements.txt`
-4. Create an Excel file `bands_to_process.xlsx`
-5. Add band names, countries of origin, and vocalist genders to `bands_to_process.xlsx`
+4. Create an Excel file `bands_to_process.xlsx` with band names, countries of origin, and vocalist genders
 6. Run `preview_discography.py` and review the generated Excel files
 7. Run `get_band_lyrics_raw.py` to fetch lyrics
 8. Run `clean_lyrics.py` to clean the raw files
@@ -141,15 +140,15 @@ This project answers a lot of questions, but it opens the floodgates to many mor
 
 ### Cross-genre comparison
 
-The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc... I've already built the infrastructure, it would just require hundreds of thousand more API calls to develop a database of lyrics for--something that would take quite a long time. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think different. I'd posit that thrash metal and country are more thematically similar than most people would expect, but my proof for that claim will have to wait until I do V2. That's the kind of assumption that this project exists to test.
+The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc... I've already built the infrastructure, it would just require hundreds of thousands more API calls, and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think different. I'd posit that thrash metal and country are more thematically similar than most people would expect, but my proof for that claim will have to wait until I do V2. That's the kind of assumption this project exists to test.
 
 ### Phrase and idiom analysis
 
-Word frequency can only go so far. A logical next step is to analyze whole phrases. What idioms are used and by which genres most often? Are any genre-specific? What things are likened to other things (i.e., similes)? That would reveal a lot of *artistic* information and context behind the words being used. That would likely require advanced NLP or n-gram modeling.
+Word frequency can only go so far. A logical next step is to analyze whole phrases. What idioms are used and by which genres most often? Are any genre-specific? Which genres lean most heavily on figurative language like similes, metaphors, and personification? Which genres favor direct and literal interpretation? That would reveal a lot of *artistic* information and context behind the words, and would likely require advanced NLP or n-gram modeling.
 
 ### Sentiment analysis
 
-Beyond the words or phrases themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? 
+Beyond the words or phrases themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre would be a challenging addition. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? 
 
 ### Non-English lyric translation
 
