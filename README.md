@@ -17,7 +17,7 @@ What does heavy metal actually talk about? This project answers that question by
 
 ## The Story Behind This Project
 
-I've been a metalhead ever since I first heard the album The Stage by Avenged Sevenfold. Sometime back then, I read a post where someone had analyzed a few thousand metal songs and concluded that the most common words were along the lines of "death" and "fire" and the least common was something like "senators". I remember my immediate reaction was that it just sounded like something someone who doesn't listen to metal would make up.
+I've been a metalhead ever since I first heard the album *The Stage* by Avenged Sevenfold. Sometime back then, I read a post where someone had analyzed a few thousand metal songs and concluded that the most common words were along the lines of "death" and "fire" and the least common was something like "senators". I remember my immediate reaction was that it just sounded like something someone who doesn't listen to metal would make up.
 
 So, I wrote a rudimentary program in JavaScript, copy/pasted 2,625 songs' lyrics into it, and it returned two arrays: a list of words and a count of their occurrence. That revealed that the most common word in heavy metal is "the" and the least common word is a ten thousand-way tie between however many words only appeared once in all 2600 lyrics. It was a good start, but I lacked the expertise to analyze it any further at that time.
 
