@@ -11,7 +11,7 @@ What does heavy metal actually talk about? This project answers that question by
 **Dataset scale:**
 - 374 bands across 10 defined subgenres (UPDATE NUMBER)
 - 29,568 songs analyzed (UPDATE)
-- Countries represented: USA (166), UK (54), Germany (31), Sweden (28), Norway (17), Finland (18), and more (UPDATE)
+- 45 countries represented: USA (166), UK (54), Germany (31), Sweden (28), Norway (17), Finland (18), and more (UPDATE)
 
 ---
 
