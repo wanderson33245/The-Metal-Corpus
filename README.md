@@ -149,7 +149,7 @@ Word frequency can only go so far. A logical next step is to analyze whole phras
 
 **Sentiment analysis**
 
-Beyond the words themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? 
+Beyond the words or phrases themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? 
 
 **Non-English lyric translation**
 
