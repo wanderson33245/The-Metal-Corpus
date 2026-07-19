@@ -109,18 +109,19 @@ words         (id, word, traditional, thrash, death, black, groove, progressive,
 
 ## Reproducing the Dataset
 
-Raw lyric files are not included in this repository out of respect for copyright — lyrics are the intellectual property of their respective songwriters and publishers.
+The raw lyric files I usedare not included in this repository out of respect for copyright. Lyrics are the intellectual property of their respective songwriters and publishers.
 
 To reproduce the dataset:
 
 1. Clone this repo
 2. Create a `.env` file with your API keys (see `.env.example`)
 3. Install dependencies: `pip install -r requirements.txt`
-4. Add bands to `bands_to_process.xlsx`
-5. Run `preview_discography.py` and review the generated Excel files
-6. Run `get_band_lyrics_raw.py` to fetch lyrics
-7. Run `clean_lyrics.py` to clean the raw files
-8. Run `analyze_lyrics.py` to populate the database
+4. Create an Excel file `bands_to_process.xlsx`
+5. Add band names, countries of origin, and vocalist genders to `bands_to_process.xlsx`
+6. Run `preview_discography.py` and review the generated Excel files
+7. Run `get_band_lyrics_raw.py` to fetch lyrics
+8. Run `clean_lyrics.py` to clean the raw files
+9. Run `analyze_lyrics.py` to populate the database
 
 API keys required:
 - [Genius API](https://genius.com/developers) — free
@@ -131,6 +132,32 @@ API keys required:
 ## Analysis & Findings
 
 *Coming soon — analysis and visualizations in progress.*
+
+---
+
+## What's Next?
+
+This project answers a lot of questions, but it opens the floodgates to many more. I've achieved my original goal, and so in an effort to avoid scope creep, I'm deliberately publishing this project with some further questions left unanswered. I'd like to come back someday and answer some of those in a V2, but today is not that day. Here are some of those further questions:
+
+**Cross-genre comparison**
+
+The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc... I've already built the infrastructure, it would just require hundreds of thousand more API calls to develop a database of lyrics for--something that would take quite a long time. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think different. I'd posit that thrash metal and country are more thematically similar than most people would expect, but my proof for that claim will have to wait until I do V2. That's the kind of assumption that this project exists to test.
+
+**Phrase and idiom analysis**
+
+Word frequency can only go so far. A logical next step is to analyze whole phrases. What idioms are used and by which genres most often? Are any genre-specific? What things are likened to other things (i.e., similes)? That would reveal a lot of *artistic* information and context behind the words being used. That would likely require advanced NLP or n-gram modeling.
+
+**Sentiment analysis**
+
+Beyond the words themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? 
+
+**Non-English lyric translation**
+
+Many of the lyrics collected from Scandinavian countries are in non-English languages, limiting the breadth of lyric collection from those countries and, specifically, black metal. Integrating a translation API would allow those lyrics to contribute to this project rather than appearing as noise.
+
+**Metal Archives scraping**
+
+The [Metal Archives](https://www.metal-archives.com/) (Encyclopaedia Metallum) is one of the most comprehensive databases for metal music, with band information, line-ups, reviews, lyrical themes, and often the lyrics themselves for tens of thousands of artists. It doesn't have a dedicated public API, but scraping it responsibly would be a fun networking challenge and would significantly improve this dataset's coverage of underground and obscure artists. 
 
 ---
 
