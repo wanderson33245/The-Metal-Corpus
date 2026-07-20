@@ -130,7 +130,16 @@ API keys required:
 
 ## Analysis & Findings
 
-*Coming soon — analysis and visualizations in progress.*
+The full analysis lives in [The Metal Corpus.ipynb](The Metal Corpus.ipynb). Here's what's covered:
+
+- **The Most Common Words in Heavy Metal** — stop words removed, what's left is revealing
+- **Most Unique Words by Subgenre** — what makes death metal vocabulary distinct from doom?
+- **The You/I Ratio** — which genres address the audience, which turn inward
+- **Profanity by Subgenre** — where the f-bombs actually land might surprise you
+- **Black Metal's Language Problem** — Finnish and Norwegian words in the corpus
+- **Glam vs Death: Contractions** — nothin', livin', runnin' vs clinical precision
+- **Bands per Capita vs World Happiness Index** — Scandinavia tops both lists
+- ...and more
 
 ---
 
