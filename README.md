@@ -167,6 +167,10 @@ Many of the lyrics collected from Scandinavian countries are in non-English lang
 
 The [Metal Archives](https://www.metal-archives.com/) (Encyclopaedia Metallum) is one of the most comprehensive databases for metal music, with band information, line-ups, reviews, lyrical themes, and often the lyrics themselves for tens of thousands of artists. It doesn't have a dedicated public API, but scraping it responsibly would be a fun networking challenge and would significantly improve this dataset's coverage of underground and obscure artists. 
 
+### AI integration
+
+The human-in-the-loop validation step is the most time-consuming part of the pipeline. In a future extension of this project, I would like to train a classification model to automate it. With 2,048 validated previews in hand, the training data is there.
+
 ---
 
 ## About
