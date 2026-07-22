@@ -42,7 +42,7 @@ analyze_lyrics.py
 ```
 
 ### 1. `preview_discography.py`
-Queries **Discogs** and **MusicBrainz** APIs to build a structured Excel preview of a band's full discography — albums, EPs, singles, tracklists, subgenres, release years, and vocalist gender. Filters to exclude live albums, compilations, and samplers automatically.
+Queries **Discogs** and **MusicBrainz** APIs to build a structured Excel preview of a band's full discography: albums, EPs, singles, tracklists, subgenres, release years, and vocalist gender. Filters to exclude live albums, compilations, and samplers automatically.
 
 ### 2. Manual Review
 The Excel preview is reviewed before any lyrics are fetched. Tracks can be included or excluded, subgenres corrected, and release types verified. This human checkpoint is a deliberate design choice to ensure data quality before committing API calls.
