@@ -116,7 +116,7 @@ To reproduce the dataset:
 1. Clone this repo
 2. Create a `.env` file with your API keys (see `.env.example`)
 3. Install dependencies: `pip install -r requirements.txt`
-4. Create an Excel file `bands_to_process.xlsx` with band names, countries of origin, and vocalist genders
+4. Create an Excel file `bands_to_process.xlsx` with band names, countries of origin, and vocalist genders (see `bands_to_process_example.xlsx`)
 6. Run `preview_discography.py` and review the generated Excel files
 7. Run `get_band_lyrics_raw.py` to fetch lyrics
 8. Run `clean_lyrics.py` to clean the raw files
