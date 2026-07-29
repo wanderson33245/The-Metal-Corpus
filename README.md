@@ -93,6 +93,7 @@ words         (id, word, traditional, thrash, death, black, groove, progressive,
 
 ## Tech Stack
 
+### Data Collection & Pipeline
 | Tool | Purpose |
 |------|---------|
 | Python | Core scripting language |
@@ -104,6 +105,16 @@ words         (id, word, traditional, thrash, death, black, groove, progressive,
 | difflib | Fuzzy string matching |
 | re | Regex-based lyric cleaning |
 | python-dotenv | Secure API key management |
+
+### Analysis & Visualization
+| Tool | Purpose |
+|------|---------|
+| Jupyter Notebook | Interactive analysis environment |
+| pandas | Data manipulation and querying |
+| matplotlib | Chart generation |
+| seaborn | Statistical visualizations |
+| wordcloud | Word cloud generation |
+| VADER (nltk) | Sentiment analysis |
 
 ---
 
