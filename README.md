@@ -57,7 +57,7 @@ Reads the approved Excel preview and fetches raw lyrics from the **Genius API** 
 ### 4. `clean_lyrics.py`
 Processes raw lyric files to produce clean versions ready for analysis:
 - Strips Genius annotations, contributor headers, and section markers
-- Expands inline repeat markers (e.g. `x3` → repeated lines)
+- Expands inline repeat markers (e.g. `x3` → copies line, triplicates it)
 - Normalizes accented characters and punctuation
 - Flags songs with ambiguous section structure for manual review
 - Updates the Excel with clean status per track
