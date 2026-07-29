@@ -9,7 +9,7 @@ A data pipeline that collects, cleans, stores, and analyzes lyrics from hundreds
 What does heavy metal actually talk about? This project answers that question by building a word frequency database from thousands of songs across subgenres like thrash, death, black, doom, power, and progressive metal. The goal is to find what makes metal lyrics distinct from everyday English, and how it varies by subgenre.
 
 **Dataset scale:**
-- 1109 bands across 10 defined subgenres (UPDATE NUMBER)
+- 1,279 bands across 10 defined subgenres (UPDATE NUMBER)
 - 64,116 songs analyzed (UPDATE)
 - 44 countries represented: USA (676), UK (119), Germany (77), Sweden (82), [TWO MORE] , and more (UPDATE)
 
@@ -149,7 +149,7 @@ This project answers a lot of questions, but it opens the floodgates to many mor
 
 ### Cross-genre comparison
 
-The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc... I've already built the infrastructure, it would just require hundreds of thousands more API calls, and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think different. I'd posit that thrash metal and country are more thematically similar than most people would expect, but my proof for that claim will have to wait until I do V2. That's the kind of assumption this project exists to test.
+The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc. I've already built the infrastructure, it would just require hundreds of thousands more API calls and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think differently. I'd posit that thrash metal and country music have more in common lyrically than their reputations suggest, but my proof for that claim will have to wait until this project's V2. That's the kind of assumption this project exists to test.
 
 ### Phrase and idiom analysis
 
