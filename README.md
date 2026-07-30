@@ -97,6 +97,7 @@ words         (id, word, traditional, thrash, death, black, groove, progressive,
 | Tool | Purpose |
 |------|---------|
 | Python | Core scripting language |
+| SQL | Database design, population, and querying |
 | SQLite | Word frequency database |
 | openpyxl | Excel preview generation and status tracking |
 | lyricsgenius | Genius API wrapper |
@@ -110,6 +111,7 @@ words         (id, word, traditional, thrash, death, black, groove, progressive,
 | Tool | Purpose |
 |------|---------|
 | Jupyter Notebook | Interactive analysis environment |
+| SQL | Database queries and aggregations |
 | pandas | Data manipulation and querying |
 | matplotlib | Chart generation |
 | seaborn | Statistical visualizations |
