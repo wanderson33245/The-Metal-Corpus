@@ -75,7 +75,7 @@ releases      (id, artist_id, artist_name, title, year, type)
 subgenres     (id, name)
 release_subgenres (release_id, artist_id, subgenre_id, release_name, artist_name, subgenre_name)
 songs         (id, release_id, artist_name, title)
-words         (id, word, traditional, thrash, death, black, groove, progressive, doom, power, glam, nu, other)
+words         (id, word, heavy, thrash, death, black, groove, progressive, doom, power, glam, nu, other)
 ```
 
 ---
