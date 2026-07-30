@@ -111,7 +111,6 @@ words         (id, word, traditional, thrash, death, black, groove, progressive,
 | Tool | Purpose |
 |------|---------|
 | Jupyter Notebook | Interactive analysis environment |
-| SQL | Database queries and aggregations |
 | pandas | Data manipulation and querying |
 | matplotlib | Chart generation |
 | seaborn | Statistical visualizations |
