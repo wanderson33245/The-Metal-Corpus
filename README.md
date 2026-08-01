@@ -181,7 +181,7 @@ The [Metal Archives](https://www.metal-archives.com/) (Encyclopaedia Metallum) i
 
 ### AI integration
 
-The human-in-the-loop validation step is the most time-consuming part of the pipeline. In a future extension of this project, I would like to train a classification model to automate it. With 2,048 validated previews in hand, the training data is there.
+The human-in-the-loop validation step is one of the more time-consuming parts of the pipeline. In a future extension of this project, I would like to train a classification model to automate it. With 2,048 validated previews in hand, I have plenty of training data.
 
 ---
 
