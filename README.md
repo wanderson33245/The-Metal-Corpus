@@ -165,13 +165,33 @@ This project answers a lot of questions, but it opens the floodgates to many mor
 
 A range/dispersion-based approach (measuring how many distinct songs use a word, not just raw occurrence count) to properly fix the single-song-outlier problem discussed in this notebook's Limitations, plus a song_words junction table enabling artist- and album-level queries
 
+#### Sentiment analysis by subgenre
+
+Which subgenre is the most positive? The most negative? The most emotionally intense? A box-and-whisker plot showing the sentiment distribution of adjectives paired with common religious or political nouns, broken down by subgenre would reveal *how* the genres feel about those topics.
+
 #### Phrase and idiom analysis
 
 Word frequency can only go so far. A logical next step is to analyze whole phrases. What idioms are used and by which genres most often? Are any genre-specific? Which genres lean most heavily on figurative language like similes, metaphors, and personification? Which genres favor direct and literal interpretation? That would reveal a lot of *artistic* information and context behind the words, and would likely require advanced NLP or n-gram modeling.
 
-#### Sentiment analysis
+#### Pronoun analysis
 
-Beyond the words or phrases themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre would be a challenging addition. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? For example, a box-and-whisker plot showing the sentiment distribution of adjectives paired with common religious or political nouns by subgenres, and eventually by broader genres like Country vs. Rap, would reveal *how* the genres feel about those topics.
+- 'You' vs. 'I',
+- 'we' vs. 'me',
+- 'us' vs. 'them',
+- 'he' vs. 'she',
+by subgenre
+
+#### Profanity heatmap
+
+Frequency of common swear words by subgenre
+
+#### Temporal analysis
+
+How metal vocabulary has shifted over the years. Has 'blackened' always been the most 'metal' word? Has 'life' aways been the most used?
+
+#### Vocalist gender vocabulary analysis
+
+Do male- and female-fronted bands prefer different vocabulary? How does sentiment change?
 
 #### Non-English lyric translation
 
