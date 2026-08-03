@@ -161,36 +161,33 @@ This project answers a lot of questions, but it opens the floodgates to many mor
 
 ### V2 - The Metal Corpus Expanded
 
-#### Bolded
-**Bolded**
+#### Deeper subgenre analysis
 
+A range/dispersion-based approach (measuring how many distinct songs use a word, not just raw occurrence count) to properly fix the single-song-outlier problem discussed in this notebook's Limitations, plus a song_words junction table enabling artist- and album-level queries
 
-
-
-
-### Cross-genre comparison
-
-The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc. I've already built the infrastructure, it would just require hundreds of thousands more API calls and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think differently. I'd posit that thrash metal and country music have more in common lyrically than their reputations suggest, but my proof for that claim will have to wait until this project's V2. That's the kind of assumption this project exists to test.
-
-### Phrase and idiom analysis
+#### Phrase and idiom analysis
 
 Word frequency can only go so far. A logical next step is to analyze whole phrases. What idioms are used and by which genres most often? Are any genre-specific? Which genres lean most heavily on figurative language like similes, metaphors, and personification? Which genres favor direct and literal interpretation? That would reveal a lot of *artistic* information and context behind the words, and would likely require advanced NLP or n-gram modeling.
 
-### Sentiment analysis
+#### Sentiment analysis
 
 Beyond the words or phrases themselves, how they're used matters. Sentiment and positive/negative analysis by subgenre would be a challenging addition. Which subgenre is the most positive? Which is the most negative? Which are the most emotionally intense? What nouns appear with the most frequently negative adjectives? For example, a box-and-whisker plot showing the sentiment distribution of adjectives paired with common religious or political nouns by subgenres, and eventually by broader genres like Country vs. Rap, would reveal *how* the genres feel about those topics.
 
-### Non-English lyric translation
+#### Non-English lyric translation
 
 Many of the lyrics collected from Scandinavian countries are in non-English languages, limiting the breadth of lyric collection from those countries and, specifically, black metal. Integrating a translation API would allow those lyrics to contribute to this project rather than appearing as noise.
 
-### Metal Archives scraping
+#### Metal Archives scraping
 
 The [Metal Archives](https://www.metal-archives.com/) (Encyclopaedia Metallum) is one of the most comprehensive databases for metal music, with band information, line-ups, reviews, lyrical themes, and often the lyrics themselves for tens of thousands of artists. It doesn't have a dedicated public API, but scraping it responsibly would be a fun networking challenge and would significantly improve this dataset's coverage of underground artists. 
 
-### AI integration
+#### AI integration
 
 The human-in-the-loop validation step is one of the more time-consuming parts of the pipeline. In a future extension of this project, I would like to train a classification model to automate it. With 2,048 validated previews in hand, I have plenty of training data.
+
+### V3 - Beyond Metal
+
+The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc. I've already built the infrastructure, it would just require hundreds of thousands more API calls and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think differently. I'd posit that thrash metal and country music have more in common lyrically than their reputations suggest, but my proof for that claim will have to wait until this project's V2. That's the kind of assumption this project exists to test.
 
 ---
 
