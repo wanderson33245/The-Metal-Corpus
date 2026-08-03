@@ -157,7 +157,7 @@ The full analysis lives in [The Metal Corpus.ipynb](The Metal Corpus.ipynb). Her
 
 ## What's Next?
 
-This project answers a lot of questions, but it opens the floodgates to many more. I've achieved my original goal, and so in an effort to avoid scope creep, I'm deliberately publishing this project with some further questions left unanswered. I'd like to come back someday and answer some of those in a V2, but today is not that day. Here are some of those further questions:
+This project answers a lot of questions, but it opens the floodgates to many more. I've achieved my original goal, and so in an effort to avoid scope creep, I'm deliberately publishing this project with some further questions left unanswered. I've broadly categorized the future goals/question of this project to two categories: V2 and V3. Here are some of those questions:
 
 ### V2 - The Metal Corpus Expanded
 
@@ -187,11 +187,19 @@ Frequency of common swear words by subgenre
 
 #### Temporal analysis
 
-How metal vocabulary has shifted over the years. Has 'blackened' always been the most 'metal' word? Has 'life' aways been the most used?
+How metal vocabulary has shifted over the years. Has 'blackened' always been the most 'metal' word? Has 'life' always been the most used?
 
 #### Vocalist gender vocabulary analysis
 
 Do male- and female-fronted bands prefer different vocabulary? How does sentiment change?
+
+#### Metal bands per capita vs. World Happiness Index
+
+Scandinavia has a lot of metal bands and they have a very high WHI. Is there a correlation?
+
+#### Location mentions map
+
+A geographic heatmap using Named Entity Recognition. If there is enough data, do different subgenres mention different locations?
 
 #### Non-English lyric translation
 
@@ -203,11 +211,13 @@ The [Metal Archives](https://www.metal-archives.com/) (Encyclopaedia Metallum) i
 
 #### AI integration
 
-The human-in-the-loop validation step is one of the more time-consuming parts of the pipeline. In a future extension of this project, I would like to train a classification model to automate it. With 2,048 validated previews in hand, I have plenty of training data.
+The human-in-the-loop validation step is one of the more time-consuming parts of the pipeline. With 2,048 validated previews already in hand, there's enough training data to build a classification model that could automate much of it.
 
 ### V3 - Beyond Metal
 
-The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc. I've already built the infrastructure, it would just require hundreds of thousands more API calls and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think differently. I'd posit that thrash metal and country music have more in common lyrically than their reputations suggest, but my proof for that claim will have to wait until this project's V2. That's the kind of assumption this project exists to test.
+#### Cross-genre comparison
+
+The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc. I've already built the infrastructure, it would just require hundreds of thousands more API calls and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you'd think otherwise. I'd posit that thrash metal and country music have more in common lyrically than their reputations suggest, but my proof for that claim will have to wait until I develop whole-genre datasets. That's the kind of assumption this project exists to test.
 
 ---
 
