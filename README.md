@@ -159,6 +159,18 @@ The full analysis lives in [The Metal Corpus.ipynb](The Metal Corpus.ipynb). Her
 
 This project answers a lot of questions, but it opens the floodgates to many more. I've achieved my original goal, and so in an effort to avoid scope creep, I'm deliberately publishing this project with some further questions left unanswered. I'd like to come back someday and answer some of those in a V2, but today is not that day. Here are some of those further questions:
 
+### V2 - The Metal Corpus Expanded
+
+#### four ticks
+
+##### five?
+
+**Bolded**
+
+
+
+
+
 ### Cross-genre comparison
 
 The most natural extension to this project is to examine lyrics from **all** genres. Country, R&B, Gospel, Funk, Rock, Heavy Metal, Rap, etc. I've already built the infrastructure, it would just require hundreds of thousands more API calls and quite a long time to make them. One comparison that's fascinated me for a couple years is *Satan Is Real* by The Louvin Brothers (1959, Country gospel) and *Satan Is Real* by Kreator (2017, Thrash metal). Both are a warning against evil and temptation, but if you judge Kreator's album by its cover, you would think differently. I'd posit that thrash metal and country music have more in common lyrically than their reputations suggest, but my proof for that claim will have to wait until this project's V2. That's the kind of assumption this project exists to test.
