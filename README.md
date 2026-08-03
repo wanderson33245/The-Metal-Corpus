@@ -187,6 +187,6 @@ The human-in-the-loop validation step is one of the more time-consuming parts of
 
 ## About
 
-Built by William Anderson as part of a data science portfolio. This project demonstrates skills in data collection, API integration, text processing, database design, and pipeline architecture.
+Built by William Anderson as part of a data science portfolio project. The Metal Corpus analyzes lyrics from over 1,100 metal artists to explore what the genre actually talks about. This project demonstrates skills in API integration (Discogs, MusicBrainz, Genius), text cleaning and normalization, SQLite database design, and end-to-end pipeline architecture, alongside statistical analysis and data visualization.
 
 [LinkedIn](https://www.linkedin.com/in/wanderson33245/) · [Portfolio](https://wandersondata.com/)
