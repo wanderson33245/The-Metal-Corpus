@@ -9,9 +9,9 @@ A data pipeline that collects, cleans, stores, and analyzes lyrics from hundreds
 What does heavy metal actually talk about? This project answers that question by building a word frequency database from thousands of songs across subgenres like thrash, death, black, doom, power, and progressive metal. The goal is to find what makes metal lyrics distinct from everyday English, and how it varies by subgenre.
 
 **Dataset scale:**
-- 1,279 bands across 10 defined subgenres (UPDATE NUMBER)
-- 64,116 songs analyzed (UPDATE)
-- 44 countries represented: USA (676), UK (119), Germany (77), Sweden (82), [TWO MORE] , and more (UPDATE)
+- 1,113 bands across 13 defined subgenres
+- 63,647 songs analyzed
+- 44 countries represented: USA (676), UK (119), Sweden (82), Germany (77), Canada (42), Finland (39), and more
 
 ---
 
