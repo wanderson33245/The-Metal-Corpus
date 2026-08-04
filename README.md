@@ -147,9 +147,9 @@ API keys required:
 
 ## Analysis & Findings
 
-The full analysis lives in [The Metal Corpus](The%20Metal%20Corpus.ipynb). Here's what's covered:
+The full analysis lives in [The Metal Corpus.ipynb](The%20Metal%20Corpus.ipynb). Here's what's covered:
 
-- **The most common word in metal is 'life,' not 'death'**. Eleven of fourteen subgenres agree, even death metal. Only black metal actually leads with 'death.'
+- **The most common word in metal is 'life,' not 'death'**. ten of thirteen subgenres agree, even death metal. Only black metal actually leads with 'death'.
 - **The most disproportionately "metal" word is 'blackened'**. So tied to the genre it's become a prefix of its own (blackened death metal, blackened thrash, blackened crust punk)
 - **The most universally "metal" word is 'fade'**. Not the most extreme anywhere, but the only word disproportionately common across nearly every subgenre
 - **Most Unique Words by Subgenre**. What genuinely sets death metal's vocabulary apart from doom, or glam from gothic?
