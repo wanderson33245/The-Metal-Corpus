@@ -22,7 +22,13 @@ What does heavy metal actually talk about? This project answers that question by
 
 ## Quick Start
 
+If you want to start exploring the findings without setting up the full pipeline,
 
+1. Clone this repo
+2. Open [`The Metal Corpus.ipynb`](The%20Metal%20Corpus.ipynb) in Jupyter
+3. Run the notebook top to bottom. The analysis runs against the included `metal_lyrics.db` database, so no API keys or data collection are required.
+
+If you want to rebuild the dataset from scratch instead (different bands, updated lyrics, etc.), see [Reproducing the Dataset](#reproducing-the-dataset) below.
 
 ---
 
