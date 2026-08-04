@@ -14,7 +14,7 @@ A data pipeline that collects, cleans, stores, and analyzes lyrics from hundreds
 What does heavy metal actually talk about? This project answers that question by building a word frequency database from thousands of songs across subgenres like thrash, death, black, doom, power, and progressive metal. The goal is to find what makes metal lyrics distinct from everyday English, and how it varies by subgenre.
 
 **Dataset scale:**
-- 1,113 bands across 13 defined subgenres
+- 1,113 bands across 13 defined subgenres, plus an "other" catch-all for niche styles that don't fit cleanly
 - 63,647 songs analyzed
 - 44 countries represented: USA (676), UK (119), Sweden (82), Germany (77), Canada (42), Finland (39), and more
 
@@ -80,7 +80,7 @@ releases      (id, artist_id, artist_name, title, year, type)
 subgenres     (id, name)
 release_subgenres (release_id, artist_id, subgenre_id, release_name, artist_name, subgenre_name)
 songs         (id, release_id, artist_name, title)
-words         (id, word, heavy, thrash, death, black, groove, progressive, doom, power, glam, nu, other)
+words         (id, word, heavy, thrash, death, black, groove, progressive, doom, power, glam, nu, metalcore, alt, gothic, other)
 ```
 
 ---
@@ -135,10 +135,10 @@ To reproduce the dataset:
 2. Create a `.env` file with your API keys (see `.env.example`)
 3. Install dependencies: `pip install -r requirements.txt`
 4. Create an Excel file `bands_to_process.xlsx` with band names, countries of origin, and vocalist genders (see `bands_to_process_example.xlsx`)
-6. Run `preview_discography.py` and review the generated Excel files
-7. Run `get_band_lyrics_raw.py` to fetch lyrics
-8. Run `clean_lyrics.py` to clean the raw files
-9. Run `analyze_lyrics.py` to populate the database
+5. Run `preview_discography.py` and review the generated Excel files
+6. Run `get_band_lyrics_raw.py` to fetch lyrics
+7. Run `clean_lyrics.py` to clean the raw files
+8. Run `analyze_lyrics.py` to populate the database
 
 API keys required:
 - [Genius API](https://genius.com/developers) — free
