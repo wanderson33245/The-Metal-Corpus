@@ -1,4 +1,9 @@
-# Heavy Metal Lyrics Analysis
+<p align="center">
+  <img src="TheMetalCorpusSketch.jpg" alt="The Metal Corpus" width="500"><br>
+  <em>A linguistic analysis of heavy metal lyrics</em>
+</p>
+
+# The Metal Corpus
 
 A data pipeline that collects, cleans, stores, and analyzes lyrics from hundreds of heavy metal bands across multiple subgenres. Built as a portfolio project to demonstrate end-to-end skills in data engineering and data science.
 
