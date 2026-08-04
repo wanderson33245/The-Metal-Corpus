@@ -169,6 +169,11 @@ The full analysis lives in [The Metal Corpus.ipynb](The%20Metal%20Corpus.ipynb).
 - **Symphonic and Gothic Metal have far higher female vocalist representation**: 48.3% and 44.8%, respectively, against a 6.6% baseline across the dataset
 - ...and more
 
+<p align="center">
+  <img src="MetalVocabWordCloudLarge.png" alt="Metal Vocab Word Cloud" width="800"><br>
+  <em>Word cloud featuring the most-used meaningful vocabulary in metal lyrics</em>
+</p>
+
 ---
 
 ## What's Next?
