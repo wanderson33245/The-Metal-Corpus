@@ -180,9 +180,9 @@ Word frequency can only go so far. A logical next step is to analyze whole phras
 #### Pronoun analysis
 
 - 'You' vs. 'I',
-- 'we' vs. 'me',
-- 'us' vs. 'them',
-- 'he' vs. 'she',
+- 'We' vs. 'me',
+- 'Us' vs. 'them',
+- 'He' vs. 'she',
 by subgenre
 
 #### Profanity heatmap
