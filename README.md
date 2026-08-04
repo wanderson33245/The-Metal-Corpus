@@ -145,18 +145,16 @@ API keys required:
 
 ---
 
-## Analysis & Findings
+Analysis & Findings
 
 The full analysis lives in [The Metal Corpus.ipynb](The Metal Corpus.ipynb). Here's what's covered:
 
-- **The Most Common Words in Heavy Metal** — stop words removed, what's left is revealing
-- **Most Unique Words by Subgenre** — what makes death metal vocabulary distinct from doom?
-- **The You/I Ratio** — which genres address the audience, which turn inward
-- **Profanity by Subgenre** — where the f-bombs actually land might surprise you
-- **Black Metal's Language Problem** — Finnish and Norwegian words in the corpus
-- **Glam vs Death: Contractions** — nothin', livin', runnin' vs clinical precision
-- **Bands per Capita vs World Happiness Index** — Scandinavia tops both lists
-- ...and more
+The most common word in metal is 'life,' not 'death' — eleven of fourteen subgenres agree, even death metal. Only black metal actually leads with 'death.'
+The most disproportionately "metal" word is 'blackened' — so tied to the genre it's become a prefix of its own (blackened death metal, blackened thrash, blackened crust punk)
+The most universally "metal" word is 'fade' — not the most extreme anywhere, but the only word disproportionately common across nearly every subgenre
+Most Unique Words by Subgenre — what genuinely sets death metal's vocabulary apart from doom, or glam from gothic
+Symphonic and Gothic Metal have far higher female vocalist representation — 48.3% and 44.8%, respectively, against a 6.6% baseline across the dataset
+...and more
 
 ---
 
