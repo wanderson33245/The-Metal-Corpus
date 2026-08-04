@@ -103,7 +103,7 @@ words         (id, word, heavy, thrash, death, black, groove, progressive, doom,
 |------|---------|
 | Python | Core scripting language |
 | SQL | Database design, population, and querying |
-| SQLite | Word frequency database |
+| SQLite (WAL mode) | Word frequency database |
 | openpyxl | Excel preview generation and status tracking |
 | lyricsgenius | Genius API wrapper |
 | discogs_client | Discogs API wrapper |
@@ -121,6 +121,7 @@ words         (id, word, heavy, thrash, death, black, groove, progressive, doom,
 | seaborn | Statistical visualizations |
 | wordcloud | Word cloud generation |
 | VADER (nltk) | Sentiment analysis |
+| SUBTLEX-US | American English word frequency baseline |
 
 ---
 
