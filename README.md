@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="the metal corpus blck (1).png" alt="The Metal Corpus" width="500"><br>
+  <img src="TheMetalCorpusLogoBlack.png" alt="The Metal Corpus" width="500"><br>
   <em>A linguistic analysis of heavy metal lyrics</em>
 </p>
 
