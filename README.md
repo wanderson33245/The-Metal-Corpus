@@ -20,6 +20,12 @@ What does heavy metal actually talk about? This project answers that question by
 
 ---
 
+## Quick Start
+
+
+
+---
+
 ## The Story Behind This Project
 
 I've been a metalhead ever since I first heard the album *The Stage* by Avenged Sevenfold. Sometime back then, I read a post where someone had analyzed a few thousand metal songs and concluded that the most common words were along the lines of "death" and "fire" and the least common was something like "senators". I remember my immediate reaction was that it just sounded like something someone who doesn't listen to metal would make up.
@@ -227,7 +233,9 @@ The most natural extension to this project is to examine lyrics from **all** gen
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+The code in this project is licensed under the MIT License. See [LICENSE](LICENSE) for details. The Metal Corpus logo is a separate creative work, commissioned specifically for this project, and is not covered under the MIT License. All rights to the logo are reserved.
+
+---
 
 ## About
 
