@@ -225,6 +225,10 @@ The most natural extension to this project is to examine lyrics from **all** gen
 
 ---
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## About
 
 Built by William Anderson as part of a data science portfolio project. The Metal Corpus analyzes lyrics from over 1,100 metal artists to explore what the genre actually talks about. This project demonstrates skills in API integration (Discogs, MusicBrainz, Genius), text cleaning and normalization, SQLite database design, and end-to-end pipeline architecture, alongside statistical analysis and data visualization.
