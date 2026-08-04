@@ -170,7 +170,7 @@ The full analysis lives in [The Metal Corpus.ipynb](The%20Metal%20Corpus.ipynb).
 - ...and more
 
 <p align="center">
-  <img src="MetalVocabWordCloudLarge.png" alt="Metal Vocab Word Cloud" width="800"><br>
+  <img src="assets/MetalVocabWordCloudLarge.png" alt="Metal Vocab Word Cloud" width="800"><br>
   <em>Word cloud featuring the most-used meaningful vocabulary in metal lyrics</em>
 </p>
 
